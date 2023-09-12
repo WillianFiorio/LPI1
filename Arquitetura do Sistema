@@ -1,3 +1,20 @@
-Aprendendo Git
-Linha Alterada no GITWEB
-Linha criada no VScode
+101.1 - Identificar e Editar Configurações de Harware
+
+Este tópico tem com peso 2.
+
+-Comando para desabilitar periféricos integrados
+-Como diferenciar dispositivos de armazenamento
+-Determinar os recursos de hardware pra dispositivos
+-Ferramentas para listar informações de hardware
+-Ferramenta para manipular USB
+-Compreensão sobre sysfs, udev e dbus.
+
+EXERCICIOS:
+
+1) Qual comando usado para visualizar componentes ligados no barramento PCI?
+2) Qual comando usado para visualizar componentes USB conectados?
+3) Qual comando usado para visualizar os módulos carregados?
+4) Qual comando usado para visualizar informações de um módulo?
+5) Foi identificado que um módulo está gerando instabilidade no sistema, qual comando para descarregar o módulo?
+6) Em qual diretório se encontra os dispositivos de armazenamento?
+7) Qual diretório podemos encontrar os arquivos dos processos?
