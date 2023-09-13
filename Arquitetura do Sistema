@@ -18,5 +18,46 @@ EXERCICIOS:
 5) Foi identificado que um módulo está gerando instabilidade no sistema, qual comando para descarregar o módulo?
 6) Em qual diretório se encontra os dispositivos de armazenamento?
 7) Qual diretório podemos encontrar os arquivos dos processos?
+8) Comando para cerregar um módulo e automaticamente carerga os demais necessários?
 
 101.2 BOOT do Sistema
+
+Este tópico tem com peso 3.
+
+-Comandos para gerenciar a inicialização e kernel.
+-Sequência de inicialização.
+-Entendimento de SysVinit e systemd.
+-Noções do Upstart.
+-Arquivo de log de inicialização.
+
+EXERCICIOS:
+
+1) Liste em ordem os processos do ciclo de incialização do sistema até o Desktop!
+2) A BIOS faz a leitura dos primeiros bytes para encontrar a MBR, qual é o tamanho da MBR?
+3) UEFI não faz uso da MBR, como que é armazenado as informações?
+4) Qual é o bootloader do Linux?
+5) Como verificar os logs de incialização? Cite pelo menos três.
+6) Em qual arquivo fica as opções passadas para o kernel pelo carregador de boot?
+
+101.3 Runlevels
+
+Este tópico tem como peso 3.
+
+-Alterar para modo single user.
+-Alterar o runlevel padrão.
+-Desligar e reiniciar o sistema.
+-Terminar processos.
+-Noções de acpid.
+
+
+EXERCICIOS:
+
+1) Antigamente o inicializador de sistema era o sysV, qual é o mais conhecido hoje em dia?
+2) Liste os 7 níveis de runlevel e o que cada um representa.
+3) O systemd trabalha com o conceito dos serviços baseados em units, qual o comando para visualizar todos os serviços?
+4) Comando para ver o status do serviço do Docker usando o systemd.
+5) Existe 7 tipos de Units, liste elas!
+6) Comando para trocar o target default?
+7) Comando para ver o target defalt?
+8) Comando para ver o nivel de execução no SysVinit?
+9) 

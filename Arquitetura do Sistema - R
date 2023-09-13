@@ -1,1 +1,12 @@
+101.1
 1) O comando lspci é usado para ver os componentes. Se utilizar com o parâmetro -vvv terá mais informações.
+
+101.2
+1) https://www.youtube.com/watch?v=RQSBskxOGBM&list=PL2JoZXteq5vgjxnHkUpUWeg6_LetRr7Qc&ab_channel=Eai...Qualteupapo%3F
+
+2) 
+
+101.3
+
+3) systemctl list-units --type=service
+7) systemctl get-default
