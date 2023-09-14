@@ -1,6 +1,6 @@
 101.1 - Identificar e Editar Configurações de Harware
 
-Este tópico tem com peso 2.
+Este tópico tem peso 2.
 
 -Comando para desabilitar periféricos integrados
 -Como diferenciar dispositivos de armazenamento
@@ -22,7 +22,7 @@ EXERCICIOS:
 
 101.2 BOOT do Sistema
 
-Este tópico tem com peso 3.
+Este tópico tem peso 3.
 
 -Comandos para gerenciar a inicialização e kernel.
 -Sequência de inicialização.
@@ -41,7 +41,7 @@ EXERCICIOS:
 
 101.3 Runlevels
 
-Este tópico tem como peso 3.
+Este tópico tem peso 3.
 
 -Alterar para modo single user.
 -Alterar o runlevel padrão.
@@ -60,3 +60,52 @@ EXERCICIOS:
 6) Comando para trocar o target default?
 7) Comando para ver o target defalt?
 8) Comando para ver o nivel de execução no SysVinit?
+
+------------------------------------------------------------------------------------------------------
+102.1 Dimencionar Parições de Disco
+
+Este tópico tem peso 2.
+
+-Distribuir sistemas de arquivos e swap.
+-Adaptar o sistema.
+-Conhecimento em LVM.
+
+EXERCICIOS:
+
+1) Qual é o primeiro diretório montado na inicialização?
+2) Qual é o código que uma partição MBR recebe?
+3) Qual é o código de uma partição SWAP?
+4) Crie em um laboratório uma partição de SWAP!
+5) Liste três diretórios que não podem ser montados em outro local!
+6) Em um laboratório adicione três discos de 1G. Crie eles com LVM, crie um grupo com apenas um dos discos, após adicione um novo disco no mesmo grupo e o terceiro adicionando em um grupo separado.
+
+102.2 Instalar o Gerenciador de Inicialização
+
+Este tópico tem peso 2.
+
+-Fornecer locais de boot alternativo e backup do boot.
+-Instalar e configurar o GRUB legacy.
+-Configurar GRUB 2.
+-menu.lst, grub.cfg. grub.conf, grub-install, grub-mkconfg e MBR.
+
+EXERCICIOS:
+
+1)
+
+EXERCÍCIOS:
+
+1) 
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+104.1 - Criar partições e Sistemas de Arquivos
+
+
+
+EXERCICIOS:
+
+1) Dentro do sistema de arquivos temos dois sistemas de arquivos dentro do /dev o devfs e o udev, explique ambos.
+
