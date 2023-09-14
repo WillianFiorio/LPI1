@@ -90,12 +90,29 @@ Este tópico tem peso 2.
 
 EXERCICIOS:
 
-1) 
+1) Ao instalar o GRUB 1 com o comando grub-install é criado o arquivo /etc/grub/menu.lst, mas onde ele fica instalado?
+2) Crie um laboratório e instale e configure o GRUB 2.
+3) Quebrar o GRUB para não subir o sistema e ajustar a configuração do boot, fazer backup antes.
+
+102.3 Controle de Bibliotecas Compartilhadas
+
+Este tópico tem peso 1.
+
+-Identificar bibliotecas compartilhadas.
+-Identificar onde elas se localizam.
+-Carregar bibliotecas compartilhadas.
+
+EXERCICIOS:
+
+1) Qual o comando para ver as bibliotecas usadas por um programa?
+2) (ver exercícios sobre essa demanda)
+
+102.4 Utilização do Sistema de Pacotes
 
 
 ------------------------------------------------------------------------------------------------------
 
-104.1 - Criar partições e Sistemas de Arquivos
+102.4 - Criar partições e Sistemas de Arquivos
 
 
 
