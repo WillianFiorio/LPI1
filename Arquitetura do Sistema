@@ -109,7 +109,19 @@ EXERCICIOS:
 
 102.4 Utilização do Sistema de Pacotes
 
+Este tópico tem peso 3.
 
+-Instalar e desinstalar pacotes Debian
+-Encontrar pacotes de arquivo ou bibliotecas específicas
+-Obter informações dos pacotes
+
+EXERCICIOS:
+
+1) Qual arquivo fica as configurações de onde o sistema irá buscar os repositórios?
+2) Qual comando para procurar um pacote?
+3) Qual comando para instalar o pacote e suas dependências?
+4) Qual comando é usado para remover um pacote e seus arquivos de configuração?
+5) Comando para ver o status dos pacotes?
 ------------------------------------------------------------------------------------------------------
 
 102.4 - Criar partições e Sistemas de Arquivos
