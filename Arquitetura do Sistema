@@ -122,6 +122,38 @@ EXERCICIOS:
 3) Qual comando para instalar o pacote e suas dependências?
 4) Qual comando é usado para remover um pacote e seus arquivos de configuração?
 5) Comando para ver o status dos pacotes?
+
+102.5 Utilização do sistrema de pacotes RPM e YUM
+
+Este tópico tem peso 3.
+
+-Instalar e remover pacotes
+-Obter informações de pacotes
+
+EXERCICIOS:
+
+1) O RPM é semelhante ao apt ou ao dpkg?
+2) Comando para consultar todos os pacotes instalados?
+3) é possível validar a autencidade de um pacote validando sua assinatura, realize em um laboratório esse teste.
+4) O comando YUM é semelhante ao apt ou ao dpkg?
+
+102.6 Linux Virtualizado
+
+Este tópico tem peso 1.
+
+-Entender sobre máquinas virtuais e contêiners
+-Entender o que mudar em caso de clone de Linux
+-Noções de cloud-init
+
+EXERCICIOS:
+
+1) O que é D-bus?
+2) Explique KVM e LXC.
+3) Em sistemas virtualizados é comum clonar uma VM, ao se fazer isso o UUID dos sistemas pode ficar igual e gerar instabilidades o D-Bus é responsável pela comunicação interprocessos, qual é o arquivo que contém o UUID?
+4) Faça em laboratório a troca do UUID para não ter problemas.
+
+
+
 ------------------------------------------------------------------------------------------------------
 
 102.4 - Criar partições e Sistemas de Arquivos
