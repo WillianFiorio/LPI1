@@ -155,7 +155,31 @@ EXERCICIOS:
 
 
 ------------------------------------------------------------------------------------------------------
+103.1 Linha de Comando
 
+Este tópico tem peso 4.
+
+-Usar comandos simples
+-Exportar variáveis de ambiente
+-Usar e editar histórico de comandos
+
+EXERCICIOS:
+
+1) Quantos tipos de sessões de shell existe? Mencione elas.
+2) Como visualizar o valor abacaxi passado no comando "set -- banana abacaxi uva"?
+3) Qual comando no teclado para fazer uma busca no histórico de comandos?
+4) AO usar o comando "whatis man" irá retornar duas páginas sobre o man a 1 que é sobre programas disponíveis ao usuário e a 7 que é diversos, como realizar a leitura da página 7 do man?
+
+103.2 Processar fluxos de texto com filtros
+
+Este tópico tem peso 3.
+
+EXERCICIOS:
+
+1) O pacote GNU Coreutils fornece alguns comandos, cite 5 deles.
+
+
+------------------------------------------------------------------------------------------------------
 102.4 - Criar partições e Sistemas de Arquivos
 
 
