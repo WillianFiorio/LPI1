@@ -177,6 +177,31 @@ Este tópico tem peso 3.
 EXERCICIOS:
 
 1) O pacote GNU Coreutils fornece alguns comandos, cite 5 deles.
+2) Qual comando e como usaria para trocar todos caracteres de um arquivo.txt para Maiúsculo?
+3) Qual comando do teclado é usado para deixar o comano less semelhante ao comportamento do tail -F?
+4) Você tem dois arquivos gigantes onde aparentemente ambos são iguais, com qual comando você consegue validar se ambos são ou não são iguais?
+
+103.3 Gerenciamento básico de arquivos
+
+Este tópicop tem peso 4.
+
+-Copiar e mover arquivos
+-Remover arquivos e diretório recursivamente
+-Caracteres curingas
+-Usar o comando find
+-Utilitários tar, cpio e dd
+
+EXERCICIOS:
+
+1) O comando ls é usado para listar arquivos, dentro de /dev/ existe vários arquivos tty use o comando ls com curingas * ou ? ou [] ou {} ou ! para ter resultados diferentes.
+2) Explique a diferença do "" para '' quando é usado caracteres especiais.
+3) No linux não se tem extenção em arquivos, qual comando usado para validar o tipo de arquivo?
+4) O comando touch é usado para criar arquivos em branco, mas é possível usa-lo para alterar a data e hora da criação do arquivo, crie um arquivo e altere seus valores.
+5) Preciso criar o diretório /final mas ele está dentro de outros diretórios /caminho/completo/para/final qual parâmetro do mkdir é possível usar para criar todos os diretórios ao mesmo tempo?
+6) Crie testes para validar comportamento do compactador tar.
+7) Faça testes com gzip, bzip2 e outros.
+8) Crie um laboratório e teste o comando DD.
+9) O comando find tem muitos parâmetros, valide e pratique eles.
 
 
 ------------------------------------------------------------------------------------------------------
