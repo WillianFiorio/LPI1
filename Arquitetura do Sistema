@@ -203,6 +203,35 @@ EXERCICIOS:
 8) Crie um laboratório e teste o comando DD.
 9) O comando find tem muitos parâmetros, valide e pratique eles.
 
+103.4 Fluxos, pipes e redirecionamentos de saida
+
+Este tópico tem peso 4.
+
+-Redirecionamento de saída padrão
+-Redirecionar erros padão
+-Saída de um comando em outro comando
+-Direcionar a saída para mais de um lugar diferente
+
+EXERCICIOS:
+
+1) Como direcionar todo o conteúdo do arquivo /etc/passwd para outro arquivo?
+2) Como direcionar a saída de sucesso de um comando para o arquivo de acerto e ao mesmo tempo no mesmo comando se ocorrer erro direcionar a saída para um arquivo de erro, e se for executado novamente manter o histórico.
+3) Com qual comando e possível ver a saída de um comando e ao mesmo tempo direcionar a saída para um arquivo.
+4) Fazer testes com o comando xargs.
+
+103.5 Criar, monitorar e finalizar processos
+
+Este tópico tem peso 4.
+
+-Executar processos em primeiro e segundo plano
+-Manter um programa em execução após um logout
+-Monitorar processos ativos
+-Enviar sinais para os processos
+
+EXERCICIOS:
+
+
+
 
 ------------------------------------------------------------------------------------------------------
 102.4 - Criar partições e Sistemas de Arquivos
