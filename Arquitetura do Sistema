@@ -230,6 +230,15 @@ Este tópico tem peso 4.
 
 EXERCICIOS:
 
+1) Comando para visualizar os processos de todos os usuários?
+2) Comando que localiza o PID pelo nome do programa?
+3) Ao dar um kill em um processo, qual é o sinal que está sendo passado?
+4) Qual é o sinal passado para sistema quando usando o Ctrl+C?
+5) Qual comando é usado para visualizar todos os tipos de sinalizações?
+6) Qual parâmetro usado em um programa para executar ele direto em segundo plano?
+7) Comando para visualizar tarefas em segundo plano?
+8) Comando para manter o comando rodando mesmo após logoff do usuário?
+9) Crie um laboratório para usar o comando screen.
 
 
 
