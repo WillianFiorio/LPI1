@@ -241,6 +241,59 @@ EXERCICIOS:
 9) Crie um laboratório para usar o comando screen.
 
 
+103.6 Modificar a prioridade de execução de um processo
+
+Este tópico tem peso 2.
+
+-Gerenciar e priorizar processos
+-Prioridade padrão de um processo
+-Executar programas alterando a prioridade padrão
+-Alterar a prioridade de processo em execução
+
+EXERCICIOS:
+
+0) Para visualizar a prioridade dos comando realize o comando ps -el usando pipelines para visualizar somente o comando executado e o cabaçalho do comando ps.
+1) Comando para executar o comando vim com prioridade -1?
+2) Comando para alterar a prioridade do comando vim que está aberto para -5?
+3) Qual é o valor padrão de um processo comum iniciar sua prioridade?
+4) Qual é a prioridade mais alta e qual a mais baixa?
+
+
+103.7 Procurar em arquivos de textro usando expressões regulares
+
+Este tópico tem peso 2.
+
+-Criar expressões regulares
+-Entender as diferenças de expressões regulares básicas e estendidas.
+-Usar expressões regulares para apagar, alterar e substituir texto.
+
+EXERCICIOS:
+
+1) Faça um comando que mostre na tela somente as linhas que terminam com "nologin" e que iniciam com "system" do arquivo "/etc/passwd".
+2) Faça um comando que mostre todas as linhas que contém "nologin" e "system".
+3) BUSCAR EXERCICIOS COM COMANDO SED
+
+103.8 Edição básica de arquivos com o vim
+
+Este tópico tem peso 3.
+
+-Inserir, editar, deletar, copiar, encontrar e escrever com vim
+-Navegar pelo documento
+-Localizar e subistituir
+-Validar outro arquivo sem sair do mesmo
+
+EXERCICIOS:
+
+1) Copie duas linhas de um arquivo e cole.
+2) Copie somente metade de uma linha e cole.
+3) Desfaça as copias feitas.
+4) Sem entrar em modo de edição altere somente um caractere.
+5) Subititua todos os valores "nologin" do arquivo "passwd" para "banana" e após retorne o valor.
+6) Com o arquivo aberto e sem o encerra abra o htop
+
+
+
+
 
 ------------------------------------------------------------------------------------------------------
 102.4 - Criar partições e Sistemas de Arquivos
