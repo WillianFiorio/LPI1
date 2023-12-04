@@ -291,6 +291,103 @@ EXERCICIOS:
 5) Subititua todos os valores "nologin" do arquivo "passwd" para "banana" e após retorne o valor.
 6) Com o arquivo aberto e sem o encerra abra o htop
 
+------------------------------------------------------------------------------------------------------
+104.1 Criar partições e sistemas de arquivos
+
+Este tópico tem peso 2.
+
+-Trabalhar com Swap
+-Criar partições MBR e GPT
+-Sistemas de arquivo ext4, xfs, vfat, exfat
+-Recursos do btrfs
+
+EXERCICIOS:
+
+1) Dos dois tipoes de esquemas de partições GPT e MBR descreva a diferença entre eles.
+2) Comando para validar o tipo do rótulo do disco?
+3) Para redimencionar uma partição, se usa qual comando?
+4) Crie um laboratório para aumentar uma partição e após reduzir a mesma e já passar um sistema de arquivos com o comando mkpartfs.
+5) O ext2 não é mais recomendado se utilizar pois no ext3 se tem o uso do jpurnalling onde ajuda o sistema com validações, com isso, se o seu sistema está usando o ext2 é possível converter para ext3 com um comando, qual seria?
+6) Em caso de se usar sistema de arquivo ext ou xfs e o disco ficar lotado em 100% o sistema não irá para, por quê? Lembrando que cada um trabalha de um formato.
+7) É possível se ter mais que uma partição Swap?
+8) Criar em um laboratório um tipo de partição em arquivo e após criar outro tipo de partição em disco, fazer este procedimento usando o disco principal e lembrar de marcar no fstab.
+
+
+104.2 Manutenção de integridade de sistemas de arquivos
+
+Este tópico tem peso 2.
+
+-Verificar a integridade do sistema de arquivos
+-Monitorar espaço e inodes
+-Reparar problemas do sistema de arquivos
+
+EXERCICIOS:
+
+1) Para ser feito uma análise de um sistema de arquivo com o comando fsck.ext3 só é possível em dois casos, um deles seria com a partição desmontada e qual seria o outro?
+2) O que faz o comando e2fsck -p -y?
+3) O que o comando stat mostra sobre um arquivo?
+4) Liste dois comandos para análise de espaço em disco e de espao em diretórios.
+
+
+104.3 Controle da montagem e desmontagem dos sistemas de arquivos
+
+Este tópico tem peso 3.
+
+-Montar e desmontar sistema de arquivos
+-Configurar a montagem automática
+-Utilizar labels e UUIDs
+-Montagem no systemd
+
+EXERCICIOS:
+
+1) Um sistema de arquivos só fica disponível para leitura e escrita após o que ser feito?
+2) No arquivo /etc/fstab fica as configurações das partições onde as configurações são separadas por espaço ou tabulações, com isso se tem 6 termos em cada linha. O que é represeentado no terceiro parâmetro?
+3) É possível usar no arquivo /etc/fstab o LABEL ou o UUID, como descobrir essas informações?
+4) É indicado utilizar sempre o LABEL ou o UUID e nunca o caminho da partição, por quê?
+
+104.5 Controlar permissões e propriedades de arquivos
+
+Este tópico tem peso 3.
+
+-Permissões de arquivos e diretórios
+-SUID, SGID e Sticky bit
+-Mudar máscara de criação de arquivos
+
+EXERCICIOS:
+
+1) Qual comando usado para trocar o dono de um arquivo?
+2) Qual comando para trocar o grupo dono do arquivo?
+3) Qual comando para trocar o dono e o grupo ao mesmo tempo?
+4) Qual comando para alterar as permissões do grupo em um arquivo?
+5) Qual comando para visualizar a umask padrão?
+6) Qual é a permissão padrão de arquivos e diretórios usando a umaks padrão?
+7) O que faz a permissão SUID?
+8) O que faz a permissão SGID?
+9) O que faz a permissão Sticky?
+10) Crie um arquivo e coloque todas essas permissões usando o formato binário.
+11) Realize o mesmo procedimento utilizando o formato de letras, ex: u+rwx
+
+104.6 Criar e alterar links simbólicos e hardlinks
+
+Este tópico tem peso 2.
+
+-Criar links
+-Identificar links simbólicos e hardlinks
+-Copiar arquivos vs criar links de arquivos
+-Usar links para dar suporte a tarefas de administração
+
+EXERCICIOS:
+
+1) Existe dois tipos de links, quais são?
+2) Explique cada um dos dois tipos de links.
+3) Crie um arquivo e faça os dois modos de links.
+
+104.7 Encontrar arquivos no sistema
+
+Este tópico tem peso 2.
+
+
+
 
 
 
