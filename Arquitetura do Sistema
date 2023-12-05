@@ -386,18 +386,31 @@ EXERCICIOS:
 
 Este tópico tem peso 2.
 
+-Entender a localização de arquivos no FHS
+-Encontrar arquivos
 
+EXERCICIOS:
 
+1) Liste diretórios que NÃO podem ser pontos de montagem.
+2) Liste diretórios que podem ser pontos de montagem.
+3) Liste dois comando usado para localizar arquivos.
+4) Realize testes para encontrar arquivos usando os dois comandos.
+5) Cite as diferenças entre os comandos.
+6) Comando para encontrar o caminho completo de um comando?
+7) Comando para encontrar o caminho completo do caminho do manual de um comando?
 
+------------------------------------------------------------------------------------------------------
+
+105.1 Personalizar e trabalhar no ambiente shell
+
+-Definir variáveis de ambiente
+-Escrever funções Bash
+-Definir caminhos de busca de comandos e apontar para diretórios corretos.
+
+EXERCICIOS:
+
+1) 
 
 
 
 ------------------------------------------------------------------------------------------------------
-102.4 - Criar partições e Sistemas de Arquivos
-
-
-
-EXERCICIOS:
-
-1) Dentro do sistema de arquivos temos dois sistemas de arquivos dentro do /dev o devfs e o udev, explique ambos.
-
